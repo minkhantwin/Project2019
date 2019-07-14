@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3432825666",
+    "firebase_url": "https://test1-89588.firebaseio.com",
+    "project_id": "test1-89588",
+    "storage_bucket": "test1-89588.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3432825666:android:8c22bcc05fda21af",
+        "android_client_info": {
+          "package_name": "mkw.ceit.edu.test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3432825666-h1pjfsapgcrbm4vleob2s7mc3fk8abj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mkw.ceit.edu.test1",
+            "certificate_hash": "c9a2bd414a9d07d2d9e55e2e929e2b5cfe6fd6b9"
+          }
+        },
+        {
+          "client_id": "3432825666-fv5e30q6i82qvirc25hmfr8dldq5n699.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhFBQccISM-tRnE8OW8vIcqn2z54QBe0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3432825666-fv5e30q6i82qvirc25hmfr8dldq5n699.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
