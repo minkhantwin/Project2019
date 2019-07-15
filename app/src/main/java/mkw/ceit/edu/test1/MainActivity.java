@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
                 final String post_key = getRef(position).getKey().toString();
                 viewHolder.setTitle(model.getTitle());
                 viewHolder.setDesc(model.getDesc());
+
+                viewHolder.setPImage(getApplicationContext(),model.getProfileImage());
                 viewHolder.setImage(getApplicationContext(), model.getImage());
                 viewHolder.setUsername(model.getUsername());
 
@@ -166,6 +168,13 @@ public class MainActivity extends AppCompatActivity {
             TextView username = mview.findViewById(R.id.username);
             username.setText(userName);
         }
+        public void setPImage(Context ctx, String profileImage)
+        {
+            ImageView profile_img = (ImageView) mview.findViewById(R.id.postProfileimg);
+            Picasso.get().load(profileImage).into(profile_img);
+
+        }
+
 
 
 
