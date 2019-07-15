@@ -1,18 +1,27 @@
 package mkw.ceit.edu.test1;
 
 public class testclass {
-    private String title,desc,image,username;
+    private String title,desc,image,username,profileImage;
+
+    public String getProfileImage() {
+        return profileImage;
+    }
+
+    public void setProfileImage(String profileImage) {
+        this.profileImage = profileImage;
+    }
 
     public testclass()
     {
 
     }
-    public testclass(String title,String desc,String image,String username)
+    public testclass(String title,String desc,String image,String username,String profileIamge)
     {
         this.title=title;
         this.desc=desc;
         this.image=image;
         this.username = username;
+        this.profileImage=profileIamge;
     }
 
     public String getTitle() {

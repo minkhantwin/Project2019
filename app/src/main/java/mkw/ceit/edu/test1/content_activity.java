@@ -115,6 +115,7 @@ public class content_activity extends AppCompatActivity {
                                newPost.child("desc").setValue(dtitle);
                                newPost.child("image").setValue(downloadURL.toString());
                                newPost.child("uid").setValue(mCurrentUser.getUid());
+
                                newPost.child("username").setValue(dataSnapshot.child("name").getValue()).addOnCompleteListener(new OnCompleteListener<Void>() {
                                    @Override
                                    public void onComplete(@NonNull Task<Void> task) {
@@ -126,6 +127,7 @@ public class content_activity extends AppCompatActivity {
                                         }
                                    }
                                });
+                               newPost.child("profileImage").setValue(dataSnapshot.child("image").getValue());
                            }
 
                            @Override
